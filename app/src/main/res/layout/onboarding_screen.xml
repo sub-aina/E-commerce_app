@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/imageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp">
+
+        <ImageView
+            android:id="@+id/dottedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ellipse87" />
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ellipseBackground"-->
+<!--            android:layout_width="318dp"-->
+<!--            android:layout_height="132dp"-->
+<!--            android:src="@drawable/Ellipse88" />-->
+
+        <ImageView
+            android:id="@+id/onboardingImage"
+            android:layout_width="match_parent"
+            android:layout_height="367dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/maskgroup" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/onboardingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover a New For You"
+            android:textSize="22sp"
+            android:textColor="#2D2D2D"
+            android:fontFamily="@font/enriqueta_bold"
+            android:gravity="center" />
+
+
+        <TextView
+            android:id="@+id/onboardingDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:text="Lots of new products here and decide which product is best for you"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:fontFamily="@font/enriqueta_semibold"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp" />
+
+
+        <LinearLayout
+            android:id="@+id/pageIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/indicator1"
+                android:layout_width="24dp"
+                android:layout_height="8dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/indicator_active" />
+
+            <View
+                android:id="@+id/indicator2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/indicator_inactive" />
+
+            <View
+                android:id="@+id/indicator3"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/indicator_inactive" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/enriqueta_bold"
+            android:background="@drawable/button_background" />
+
+    </LinearLayout>
+
+</RelativeLayout>

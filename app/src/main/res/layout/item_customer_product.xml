@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Product Image with Wishlist Icon -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <ImageView
+                android:id="@+id/ivProductImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder_product"
+                android:contentDescription="Product Image" />
+
+            <!-- Wishlist Icon (Top Right) -->
+            <ImageView
+                android:id="@+id/ivWishlist"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="8dp"
+                android:background="@drawable/circle_white_bg"
+                android:padding="6dp"
+                android:src="@drawable/ic_more"
+                android:contentDescription="Add to Wishlist"
+                app:tint="@color/primary" />
+
+        </FrameLayout>
+
+        <!-- Product Details -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- Product Name -->
+            <TextView
+                android:id="@+id/tvProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:maxLines="2"
+                android:ellipsize="end" />
+
+            <!-- Product Price -->
+            <TextView
+                android:id="@+id/tvProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginTop="4dp" />
+
+            <!-- Stock Info -->
+            <TextView
+                android:id="@+id/tvProductStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock: 0 units"
+                android:textSize="11sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="2dp" />
+
+            <!-- Add to Cart Button -->
+            <ImageButton
+                android:id="@+id/btnAddToCart"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/circle_white_bg"
+                android:src="@drawable/ic_empty_cart"
+                android:contentDescription="Add to Cart"
+                android:scaleType="centerInside"
+                android:padding="6dp"
+                app:tint="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

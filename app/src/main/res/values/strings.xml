@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SMD_Project</string>
+    <string name="default_web_client_id">517093239055-69fir0trithiv1ig3gqp5fojkg65kotb.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="order_status_filter">
+        <item>All</item>
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Shipped</item>
+        <item>Delivered</item>
+        <item>Cancelled</item>
+    </string-array>
+
+
+</resources>

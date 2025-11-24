@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF6B4A</color>
+    <color name="primary_dark">#E55539</color>
+    <color name="primary_light">#FF9F85</color>
+    <color name="accent">#FF6B4A</color>
+
+    <!-- Purple Theme Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="purple">#FF9C27B0</color>
+
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+
+    <!-- Gray Shades -->
+    <color name="gray">#FF757575</color>
+    <color name="dark_grey">#FF424242</color>
+
+    <!-- Chip Colors -->
+    <color name="chip_background">#F5F5F5</color>
+    <color name="chip_text">#666666</color>
+    <color name="chip_stroke">#E0E0E0</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+
+    <!-- Status Colors -->
+    <color name="orange">#FFFF9800</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="red">#FFF44336</color>
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+
+    <!-- Other Colors -->
+    <color name="divider">#E0E0E0</color>
+</resources>

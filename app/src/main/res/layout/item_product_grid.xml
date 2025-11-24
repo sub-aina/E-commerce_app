@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardElevation="5dp"
+    card_view:cardCornerRadius="18dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#E0E0E0"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_placeholder" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222"/>
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$0.00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"
+            android:layout_marginTop="4dp" />
+
+        <!-- Wishlist Button -->
+        <ImageButton
+            android:id="@+id/btnWishlist"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_heart_outline"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            card_view:tint="#D32F2F" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
