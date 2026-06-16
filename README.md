@@ -1,4 +1,4 @@
-# SMD_Project
+# E-commerce App
 
 An Android e-commerce mobile application built for the **Software for Mobile Devices (SMD)** course. Supports three user roles: **customers**, **vendors/admins**, and **unregistered users**.
 
